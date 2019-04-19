@@ -10,7 +10,7 @@ body {
     text-align: center;
     padding: 10px 0;
     background: #1c1c1c;
-/*    background-image: url(icons/ssplogo-fish.png); */
+    background-image: url(icons/ssplogo-fish.png); 
 /*    background-repeat: no-repeat; */
     color: #333;
     font: 83%/1.5 arial,tahoma,verdana,sans-serif;
