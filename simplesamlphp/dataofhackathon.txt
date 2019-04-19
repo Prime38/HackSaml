@@ -1,0 +1,7 @@
+mysql -u root -p (password:10101010)
+GRANT ALL ON auth.* TO 'authuser'@'localhost' IDENTIFIED BY 'your_mysql_auth_user_password'; > your_mysql_auth_user_password=10101010
+INSERT INTO auth.users(username, password) VALUES 
+('protik', AES_ENCRYPT('protik','10101010')), 
+('anam', AES_ENCRYPT('anam','10101010')), 
+('sristy', AES_ENCRYPT('sristy','10101010')),
+('shoumik', AES_ENCRYPT('shoumik','10101010'));

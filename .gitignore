@@ -1,0 +1,15 @@
+backups/*
+cache/*
+crash/*
+lib/*
+local/*
+lock/*
+log/*
+mail/*
+metrics/*
+NX/*
+opt/*
+run/*
+snap/*
+spool/*
+tmp/*
